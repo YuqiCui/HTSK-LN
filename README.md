@@ -1,2 +1,2 @@
 # HTSK-LN-ReLU
-The code will coming soon.
+This is the code for paper "Layer Normalization for TSK Fuzzy System Optimization in Regression Problems"
