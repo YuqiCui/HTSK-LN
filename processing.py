@@ -191,7 +191,7 @@ X = X.toarray()
 bmax = np.max(X, axis=1)
 max_mean = np.mean(bmax)
 max_std = np.std(bmax)
-keep = abs(bmax - max_mean) < max_std
+keep = bmax - max_mean < max_std
 X = X[keep, :]
 y = y[keep]
 if save_to_dir:
